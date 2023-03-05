@@ -28,7 +28,7 @@
 		 *
 		 * @return CartInterface Возвращаем этот же объект для совершения следующих действий
 		 */
-        public function removeProduct(Product $product): CartInterface {}
+		public function removeProduct(Product $product): CartInterface {}
 
 		/**
 		 * Изменение кол-ва товара в корзине
@@ -37,20 +37,20 @@
 		 *
 		 * @return CartInterface Возвращаем этот же объект для совершения следующих действий
 		 */
-        public function editProductQuantity(Product $product, int $quantity): CartInterface {}
+		public function editProductQuantity(Product $product, int $quantity): CartInterface {}
 
 		/**
 		 * Получить товары, которые есть в корзине
 		 *
 		 * @return array - Возвращаем массив из товаров в корзине
 		 */
-        public function getProducts(): array {}
+		public function getProducts(): array {}
 
 		/**
 		 * Функция очистки корзины
 		 *
 		 * @return bool - Возвращаем результат очищения корзины
 		 */
-        public function clear(): bool {}
+		public function clear(): bool {}
 
 	}

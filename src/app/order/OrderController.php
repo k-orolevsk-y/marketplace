@@ -46,42 +46,42 @@
 		 *
 		 * @return array - Возвращает массив из товаров
 		 */
-        public function getProducts(): array {}
+		public function getProducts(): array {}
 
 		/**
 		 * Получить общую сумму заказа
 		 *
 		 * @return float - Возвращает цену в виде числа с плавающей точкой
 		 */
-        public function getTotal(): float {}
+		public function getTotal(): float {}
 
 		/**
 		 * Получить адрес доставки
 		 *
 		 * @return string - Возвращает адрес в виде строки
 		 */
-        public function getDeliveryAddress(): string {}
+		public function getDeliveryAddress(): string {}
 
 		/**
 		 * Получить цену за доставку
 		 *
 		 * @return float - Возвращает цену доставки
 		 */
-        public function getDeliveryPrice(): float {}
+		public function getDeliveryPrice(): float {}
 
 		/**
 		 * Получить платежную систему
 		 *
 		 * @return string - Возвращает название платежной системы
 		 */
-        public function getPaymentMethod(): string {}
+		public function getPaymentMethod(): string {}
 
 		/**
 		 * Оформить заказ через нужную платежную систему
 		 *
 		 * @return string|null - Возвращает ссылку на платежную систему или null, если не удалось создать заказ на платежной системе
 		 */
-        public function placeOrder(): ?string {}
+		public function placeOrder(): ?string {}
 
 		/**
 		 * Установить адрес доставки
@@ -90,7 +90,7 @@
 		 *
 		 * @return OrderInterface - Возвращаем этот же объект для совершения следующих действий
 		 */
-        public function setDeliveryAddress(string $address): OrderInterface {}
+		public function setDeliveryAddress(string $address): OrderInterface {}
 
 		/**
 		 * Установить цену доставки
@@ -99,7 +99,7 @@
 		 *
 		 * @return OrderInterface - Возвращаем этот же объект для совершения следующих действий
 		 */
-        public function setDeliveryPrice(float $price): OrderInterface {}
+		public function setDeliveryPrice(float $price): OrderInterface {}
 
 		/**
 		 * Установить способ оплаты
@@ -108,6 +108,6 @@
 		 *
 		 * @return OrderInterface - Возвращаем этот же объект для совершения следующих действий
 		 */
-        public function setPaymentMethod(string $method): OrderInterface {}
+		public function setPaymentMethod(string $method): OrderInterface {}
 
 	}
